@@ -1,7 +1,6 @@
 # Express-MongoDB-MovieApi
 Express Framework ve MongoDB ile RestFul API Geliştirilmesi
 
-[![nodejs dersleri](https://mehmetseven.net/content/images/2017/12/nodejs-mehmet-seven.jpg)](http://bit.ly/ndjsm)
 
 
 # Movies
@@ -34,8 +33,3 @@ Express Framework ve MongoDB ile RestFul API Geliştirilmesi
 | /register | `POST` | { username: 'foo', password:'1234' } | Create a new user. |
 | /authenticate | `POST` | { username: 'foo', password:'1234' } | Generate a token. |
 
-
-# Demo
-[Live demo on Heroku](https://node-egitimi-movie-api.herokuapp.com/)
-
-enjoy!
