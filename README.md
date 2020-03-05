@@ -3,6 +3,10 @@ Express Framework ve MongoDB ile RestFul API Geliştirilmesi
 
 1- ilk olarak express generator ile sistemi ayağa kaldırıyoruz
 
+2- MongoDB-Cloud bağllantısı
+
+3- CRUD işlemleri
+
 # Movies
 
 | Route | HTTP Verb	 | POST body	 | Description	 |
