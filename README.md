@@ -1,7 +1,7 @@
 # Express-MongoDB-MovieApi
 Express Framework ve MongoDB ile RestFul API Geliştirilmesi
 
-
+1- ilk olarak express generator ile sistemi ayağa kaldırıyoruz
 
 # Movies
 
