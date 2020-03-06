@@ -92,4 +92,20 @@ router.post('/', (req, res, next) => {
   });
 });
 
+// between years
+router.get("/between/:start_year/:end_year", (req, res) => {
+  const { start_year, end_year } = req.params;
+  const promise = Movie.find(
+    {
+      // gte ve lte küçük büyük eşittir demek. gt ve lt küçük büyük demek
+      year: { "$gte": parseInt(start_year), "$lt": parseInt(end_year) }
+    }
+  );
+  promise.then((data) => {
+    res.json(data);
+  }).catch((err) => {
+    res.json(err);
+  });
+});
+
 module.exports = router;
