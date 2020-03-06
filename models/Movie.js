@@ -7,7 +7,10 @@ const MovieSchema = new Schema({
         type: String,
         required: true,
     },
-    category: String,
+    category: {
+        type: String,
+        required:[true, "Bu alanı (`{PATH}`) gitmek zorunludur"]
+    },
     country: String,
     year: Number,
     imdb_score: Number,
